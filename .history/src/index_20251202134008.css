@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'JetBrains Mono', monospace;
+  background-color: #0b0b0b;
+  color: #cfcfcf;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b0b0b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff1a1a;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff4040;
+}
+
+/* Clean Scanning Animations */
+@keyframes scan-down {
+  0% {
+    top: 0%;
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    top: 100%;
+    opacity: 0;
+  }
+}
+
+@keyframes scan-up {
+  0% {
+    top: 100%;
+    opacity: 0;
+  }
+  5% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  95% {
+    opacity: 0.7;
+  }
+  100% {
+    top: 0%;
+    opacity: 0;
+  }
+}
+
+.animate-scan-down {
+  animation: scan-down 4s ease-in-out infinite;
+}
+
+.animate-scan-up {
+  animation: scan-up 4s ease-in-out infinite;
+  animation-delay: 2s;
+}
+
+/* Orbiting Social Icons Animations */
+@keyframes orbit-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 26, 26, 0.7);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px 5px rgba(255, 26, 26, 0.3);
+  }
+}
+
+.animate-orbit-1 {
+  animation: orbit-pulse 3s ease-in-out infinite;
+}
+
+.animate-orbit-2 {
+  animation: orbit-pulse 3s ease-in-out infinite;
+  animation-delay: 0.75s;
+}
+
+.animate-orbit-3 {
+  animation: orbit-pulse 3s ease-in-out infinite;
+  animation-delay: 1.5s;
+}
+
+.animate-orbit-4 {
+  animation: orbit-pulse 3s ease-in-out infinite;
+  animation-delay: 2.25s;
+}

@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'JetBrains Mono', monospace;
+  background-color: #0b0b0b;
+  color: #cfcfcf;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b0b0b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff1a1a;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff4040;
+}
+
+/* Scanning Animations */
+@keyframes scan {
+  0% {
+    top: 0;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    top: 100%;
+    opacity: 0;
+  }
+}
+
+@keyframes scan-line {
+  0% {
+    top: 0%;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    top: 100%;
+    opacity: 0;
+  }
+}
+
+@keyframes scan-line-slow {
+  0% {
+    top: 0%;
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.7;
+  }
+  85% {
+    opacity: 0.7;
+  }
+  100% {
+    top: 100%;
+    opacity: 0;
+  }
+}
+
+@keyframes scan-line-fast {
+  0% {
+    top: 0%;
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 0.5;
+  }
+  100% {
+    top: 100%;
+    opacity: 0;
+  }
+}
+
+@keyframes scan-line-reverse {
+  0% {
+    top: 100%;
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.3;
+  }
+  90% {
+    opacity: 0.3;
+  }
+  100% {
+    top: 0%;
+    opacity: 0;
+  }
+}
+
+@keyframes scan-line-main {
+  0% {
+    top: 0%;
+    opacity: 0;
+    box-shadow: 0 0 0px rgba(255, 26, 26, 0);
+  }
+  10% {
+    opacity: 1;
+    box-shadow: 0 0 20px rgba(255, 26, 26, 0.8);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(255, 26, 26, 1);
+  }
+  90% {
+    opacity: 1;
+    box-shadow: 0 0 20px rgba(255, 26, 26, 0.8);
+  }
+  100% {
+    top: 100%;
+    opacity: 0;
+    box-shadow: 0 0 0px rgba(255, 26, 26, 0);
+  }
+}
+
+.animate-scan {
+  animation: scan 3s linear infinite;
+}
+
+.animate-scan-line {
+  animation: scan-line 4s linear infinite;
+}
+
+.animate-scan-line-slow {
+  animation: scan-line-slow 6s linear infinite;
+  animation-delay: 1s;
+}
+
+.animate-scan-line-fast {
+  animation: scan-line-fast 2.5s linear infinite;
+  animation-delay: 0.5s;
+}
+
+.animate-scan-line-reverse {
+  animation: scan-line-reverse 5s linear infinite;
+  animation-delay: 2s;
+}
+
+.animate-scan-line-main {
+  animation: scan-line-main 3.5s ease-in-out infinite;
+  animation-delay: 0.3s;
+}
