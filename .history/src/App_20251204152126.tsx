@@ -37,12 +37,12 @@ function App() {
   }
 
   const skills = [
-    { name: 'Basic Penetration Testing', icon: 'fa-solid fa-unlock', description: 'Learning structured methodologies, phases, and reporting' },
-    { name: 'Network Essentials', icon: 'fa-solid fa-network-wired', description: 'Ports, protocols, routing, scanning and enumeration' },
-    { name: 'Linux & Terminal', icon: 'fa-brands fa-linux', description: 'Daily use of Kali Linux and administration basics' },
-    { name: 'Python Scripting', icon: 'fa-brands fa-python', description: 'Security automation, basic tooling, and scripting logic' },
-    { name: 'Web Security', icon: 'fa-solid fa-shield-halved', description: 'Studying XSS, SQL injection, CSRF & authentication flaws' },
-    { name: 'Security Tools', icon: 'fa-solid fa-toolbox', description: 'Using Nmap, Burp Suite, Metasploit, Feroxbuster, Netcat' }
+    { name: 'Basic Penetration Testing', icon: 'fa-solid fa-unlock', description: 'Learning ethical hacking fundamentals' },
+    { name: 'Network Basics', icon: 'fa-solid fa-network-wired', description: 'Understanding network protocols & security' },
+    { name: 'Linux & Terminal', icon: 'fa-brands fa-linux', description: 'Working with Kali Linux & command line' },
+    { name: 'Python Scripting', icon: 'fa-brands fa-python', description: 'Writing security automation scripts' },
+    { name: 'Web Vulnerabilities', icon: 'fa-solid fa-shield-halved', description: 'Exploring XSS, SQL injection, CSRF' },
+    { name: 'Security Tools', icon: 'fa-solid fa-toolbox', description: 'Using Nmap, Burp Suite, Metasploit basics' }
   ]
 
   const projects = [
@@ -127,7 +127,7 @@ function App() {
 
               <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold text-gray-text/90 mb-8">Aspiring Penetration Tester & Security Enthusiast</h2>
 
-              <p className="text-base md:text-lg text-gray-text/80 mb-12 leading-relaxed">I’m building hands-on skills in cybersecurity through labs, CTFs, and real-world practice environments. I focus on learning how systems work, how attackers exploit weaknesses, and how to secure them.</p>
+              <p className="text-base md:text-lg text-gray-text/80 mb-12 leading-relaxed">I'm building my skills in cybersecurity, actively learning penetration testing, and exploring vulnerabilities. Currently advancing my knowledge through hands-on labs and ethical hacking challenges.</p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start items-center">
                 <a
@@ -189,7 +189,7 @@ function App() {
                   </div>
 
                   {/* Main Image */}
-                  <img src="/anon.jfif" alt="Ayub Abdi - Cybersecurity Specialist" className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover border-4 border-panel-bg shadow-2xl relative z-10" />
+                  <img src="/dp.jpeg" alt="Ayub Abdi - Cybersecurity Specialist" className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover border-4 border-panel-bg shadow-2xl relative z-10" />
 
                   {/* Cyber Grid Overlay */}
                   <div className="absolute inset-0 rounded-full overflow-hidden z-20 pointer-events-none">
@@ -241,7 +241,7 @@ function App() {
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <p className="text-lg text-gray-text/90 leading-relaxed">I'm an aspiring penetration tester actively developing my skills in ethical hacking, network security, and vulnerability analysis. I learn through structured labs, online platforms, and security communities.</p>
+              <p className="text-lg text-gray-text/90 leading-relaxed">I'm an intermediate ethical hacker passionate about cybersecurity and penetration testing. Currently expanding my knowledge through practical labs, CTF challenges, and online learning platforms like TryHackMe and HackTheBox.</p>
 
               <p className="text-lg text-gray-text/90 leading-relaxed">
                 I've showcased my skills in challenges like{' '}
@@ -251,14 +251,14 @@ function App() {
                 CTF, where I ranked in the top 4.
               </p>
 
-              <p className="text-lg text-gray-text/90 leading-relaxed">I enjoy solving challenges, experimenting with attack paths, and documenting what I learn.</p>
+              <p className="text-lg text-gray-text/90 leading-relaxed">I'm passionate about exploring emerging cybersecurity technologies, safeguarding digital ecosystems, and helping others navigate the world of cybersecurity.</p>
 
               <div className="pt-4">
                 <h3 className="text-xl font-semibold text-red-terminal mb-4">Quick Facts</h3>
                 <ul className="space-y-2">
                   <li className="flex items-center gap-3">
                     <i className="fa-solid fa-heart text-red-terminal"></i>
-                    <span>Passionate about cybersecurity & ethical hacking</span>
+                    <span>Love Cybersecurity</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <i className="fa-solid fa-certificate text-red-terminal"></i>
@@ -274,7 +274,7 @@ function App() {
                   </li>
                   <li className="flex items-center gap-3">
                     <i className="fa-brands fa-node-js text-red-terminal"></i>
-                    <span>Comfortable working with REST APIs (Node.js/Express)</span>
+                    <span>Familiar with REST API (Node.js/Express)</span>
                   </li>
                 </ul>
               </div>

@@ -38,11 +38,11 @@ function App() {
 
   const skills = [
     { name: 'Basic Penetration Testing', icon: 'fa-solid fa-unlock', description: 'Learning structured methodologies, phases, and reporting' },
-    { name: 'Network Essentials', icon: 'fa-solid fa-network-wired', description: 'Ports, protocols, routing, scanning and enumeration' },
+    { name: 'Network Basics', icon: 'fa-solid fa-network-wired', description: 'Ports, protocols, routing, scanning and enumerationy' },
     { name: 'Linux & Terminal', icon: 'fa-brands fa-linux', description: 'Daily use of Kali Linux and administration basics' },
-    { name: 'Python Scripting', icon: 'fa-brands fa-python', description: 'Security automation, basic tooling, and scripting logic' },
+    { name: 'Python Scripting', icon: 'fa-brands fa-python', description: 'Writing security automation scripts' },
     { name: 'Web Security', icon: 'fa-solid fa-shield-halved', description: 'Studying XSS, SQL injection, CSRF & authentication flaws' },
-    { name: 'Security Tools', icon: 'fa-solid fa-toolbox', description: 'Using Nmap, Burp Suite, Metasploit, Feroxbuster, Netcat' }
+    { name: 'Security Tools', icon: 'fa-solid fa-toolbox', description: 'Using Nmap, Burp Suite, Metasploit basics' }
   ]
 
   const projects = [
@@ -189,7 +189,7 @@ function App() {
                   </div>
 
                   {/* Main Image */}
-                  <img src="/anon.jfif" alt="Ayub Abdi - Cybersecurity Specialist" className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover border-4 border-panel-bg shadow-2xl relative z-10" />
+                  <img src="/dp.jpeg" alt="Ayub Abdi - Cybersecurity Specialist" className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover border-4 border-panel-bg shadow-2xl relative z-10" />
 
                   {/* Cyber Grid Overlay */}
                   <div className="absolute inset-0 rounded-full overflow-hidden z-20 pointer-events-none">
@@ -251,7 +251,7 @@ function App() {
                 CTF, where I ranked in the top 4.
               </p>
 
-              <p className="text-lg text-gray-text/90 leading-relaxed">I enjoy solving challenges, experimenting with attack paths, and documenting what I learn.</p>
+              <p className="text-lg text-gray-text/90 leading-relaxed">I'm passionate about exploring emerging cybersecurity technologies, safeguarding digital ecosystems, and helping others navigate the world of cybersecurity.</p>
 
               <div className="pt-4">
                 <h3 className="text-xl font-semibold text-red-terminal mb-4">Quick Facts</h3>

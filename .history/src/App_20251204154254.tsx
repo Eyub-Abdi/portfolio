@@ -189,7 +189,7 @@ function App() {
                   </div>
 
                   {/* Main Image */}
-                  <img src="/anon.jfif" alt="Ayub Abdi - Cybersecurity Specialist" className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover border-4 border-panel-bg shadow-2xl relative z-10" />
+                  <img src="/dp.jpeg" alt="Ayub Abdi - Cybersecurity Specialist" className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover border-4 border-panel-bg shadow-2xl relative z-10" />
 
                   {/* Cyber Grid Overlay */}
                   <div className="absolute inset-0 rounded-full overflow-hidden z-20 pointer-events-none">
@@ -251,7 +251,7 @@ function App() {
                 CTF, where I ranked in the top 4.
               </p>
 
-              <p className="text-lg text-gray-text/90 leading-relaxed">I enjoy solving challenges, experimenting with attack paths, and documenting what I learn.</p>
+              <p className="text-lg text-gray-text/90 leading-relaxed">I'm passionate about exploring emerging cybersecurity technologies, safeguarding digital ecosystems, and helping others navigate the world of cybersecurity.</p>
 
               <div className="pt-4">
                 <h3 className="text-xl font-semibold text-red-terminal mb-4">Quick Facts</h3>
